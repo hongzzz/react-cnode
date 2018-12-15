@@ -1,0 +1,19 @@
+.notFound {
+
+}
+
+.text {
+  width: fit-content;
+  font-size: 200px;
+  margin: 50px auto;
+  color: red;
+}
+
+.link{
+  display: block;
+  width: fit-content;
+  font-size: 50px;
+  margin: 50px auto;
+  color: red;
+  text-decoration: none;
+}

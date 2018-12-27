@@ -36,7 +36,6 @@ class Home extends PureComponent {
         topics: result,
         loading: false
       });
-      console.log(result);
     } catch (e) {
       message.error(e.error_msg);
     }

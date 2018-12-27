@@ -9,6 +9,7 @@
 * 实践css module
 * 使用Redux配合localStorage持久存储个人信息
 * 实践首屏加载优化
+* prettier eslint 规范代码
 
 ## 技术栈
 

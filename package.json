@@ -1,7 +1,7 @@
 {
-  "name": "react-demo",
+  "name": "react-cnode",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple demo",
   "main": "index.js",
   "scripts": {
     "start": "npm run fix && webpack-dev-server --hot --mode development",

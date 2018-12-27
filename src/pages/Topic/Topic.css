@@ -1,0 +1,35 @@
+.user {
+  margin: 10px 60px;
+  min-height: 50px;
+}
+
+.title {
+  margin: 20px 60px;
+  font-weight: bold;
+  color: #000;
+}
+
+.item {
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+  margin: 0 8px;
+}
+
+.article {
+  margin: 10px 60px 20px 60px;
+}
+
+@media (max-width: 767px) {
+  .user {
+    margin: 10px 25px;
+  }
+
+  .title {
+    margin: 20px 25px;
+  }
+
+  .article {
+    margin: 20px 25px;
+  }
+}

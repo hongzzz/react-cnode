@@ -1,0 +1,12 @@
+.item{
+  display: inline-block;
+  margin: 10px 0 10px 30px;
+  text-decoration: none;
+}
+.item:global.active{
+  color: #80bd01;
+  text-decoration: none;
+}
+.bar{
+  border-bottom: 1px #eee solid;
+}

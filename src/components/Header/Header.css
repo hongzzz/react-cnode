@@ -1,18 +1,49 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background: #444;
+  z-index: 100;
+}
+
+.holdPlace {
+  height: 60px;
 }
 
 .link {
   height: 100%;
   line-height: 60px;
-  font-size: 25px;
-  color: #000;
+  color: #eee;
   text-decoration: none;
+  margin-right: 10px;
 }
 
-.link:global.active {
-  color: red;
+.logo {
+  margin: 15px 0 15px 10px;
+  height: 50%;
+  vertical-align: top;
 }
 
+.login {
+  margin: 10px 10px 10px 0;
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 767px) {
+  .logo {
+    margin-left: 50px;
+  }
+
+  .login {
+    margin-right: 50px;
+  }
+
+  .link {
+    margin-right: 50px;
+  }
+}

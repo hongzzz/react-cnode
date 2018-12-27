@@ -1,0 +1,68 @@
+.item {
+  padding: 0 80px;
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #eee;
+}
+
+.tab {
+  padding: 2px 5px;
+  margin: 0 10px 0 0;
+  border-radius: 4px;
+  background-color: #e5e5e5;
+  color: #999;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.tab:global.highlight {
+  background: #80bd01;
+  color: #fff;
+}
+
+.title {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  max-width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.title:visited {
+  color: #888;
+}
+
+@media (min-width: 767px) {
+  .title {
+    max-width: 80%;
+  }
+}
+
+.count {
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: #333;
+  font-size: 14px;
+}
+
+.date {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #333;
+  font-size: 14px;
+  vertical-align: top;
+}

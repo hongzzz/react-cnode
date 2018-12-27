@@ -1,11 +1,41 @@
-:global html {
-  font-size: 10vw;
+:global a:hover {
+  color: #80bd01 !important;
 }
 
-:global body {
-  font-size: 16px;
+:global .container {
+  width: 90vw;
+  margin: 40px auto;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  :global .container {
+    width: 80vw;
+  }
+}
+
+:global .holdItem{
+  padding: 10px 20px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .app {
-  color: blue;
 }

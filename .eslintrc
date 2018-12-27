@@ -1,20 +1,18 @@
 {
   "parser": "babel-eslint",
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
   ],
   "env": {
     "browser": true,
     "es6": true,
-    "node": true,
-    "commonjs": true
+    "node": true
   },
   "rules": {
-    "indent": ["warn", 2],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
     "no-console": "warn",
     "semi": "warn",
     "no-unused-vars": "warn"
